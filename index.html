@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Team Atoms</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul id="navbar-container">
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article id="main-heading">
+        <div id="main-heading-title">Atom</div>
+        <div id="main-heading-description">Designs solutions to technology problems</div>
+      </article>
+    </section>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>Team Atoms</title>
-</head>
+    <section id="about">
+      <h2>We focus on</h2>
+      <div id="about-container">
+        <div class="about-content">
+          <figure>
+            Icon here
+          </figure>
+          <figcaption>
+            <p>Beautiful visual design</p>
+          </figcaption>
+        </div>
+        <div class="about-content">
+          <figure>
+            Icon here
+          </figure>
+          <figcaption>
 
-<body>
-  <header>
-    <nav id="navbar">
-      <ul id="navbar-container">
-        <li><a href="#about">About</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact-form">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <article id="main-heading">
-      <div id="main-heading-title">Atom</div>
-      <div id="main-heading-description">Designs solutions to technology problems</div>
-    </article>
-  </section>
-  <section>
-    <form action="https://formspree.io/mineshvora90@gmail.com" method="POST">
-      <label for="name">Name</label><br>
-      <input type="text" id="name" tabindex="0" name="Full Name"><br>
-      <label for="email">Email</label><br>
-      <input type="email" id="email" tabindex="0" name="email"><br>
-      <label for="message">Message</label><br>
-      <textarea name="message" id="message" tabindex="0" cols="50" rows="15"></textarea><br><br>
-      <input type="submit" tabindex="0" value="Send">
-      <input type="reset" tabindex="0" value="Reset">
-    </form>
-  </section>
-</body>
-
+            <p>Database driven websites</p>
+          </figcaption>
+        </div>
+        <div class="about-content">
+          <figure>
+            Icon here
+          </figure>
+          <figcaption>
+            <p>Mobile apps</p>
+          </figcaption>
+        </div>
+    </section>
+    <section id="contact-form">
+      <form action="https://formspree.io/mineshvora90@gmail.com" method="POST">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" tabindex="0" name="Full Name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" tabindex="0" name="email"><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" tabindex="0" cols="50" rows="15"></textarea><br><br>
+        <input type="submit" tabindex="0" value="Send">
+        <input type="reset" tabindex="0" value="Reset">
+      </form>
+    </section>
+  </body>
 </html>
