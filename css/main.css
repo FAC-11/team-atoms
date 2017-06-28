@@ -1,0 +1,42 @@
+header {
+  display: flex;
+}
+
+
+
+#navbar {
+  width: 100%;
+  /*position: fixed;*/
+  /*z-index: 1;
+  top: 0;*/
+}
+
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  list-style-type: none;
+  background-color: grey;
+}
+
+#navbar ul li {
+  display: inline-flex;
+  font-size: 1.5em;
+  margin: 0 20px;
+}
+
+#main-heading {
+  font-size: 4em;
+  text-align: center;
+  background-color: orange;
+  padding: 2em;
+}
+
+#main-heading-title {
+  font-size: 1em;
+}
+
+#main-heading-description {
+  font-size: 0.5em;
+}
