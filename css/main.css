@@ -54,3 +54,49 @@ header {
 .about-content {
   text-align: center;
 }
+
+#team {
+  display: flex;
+  display: row;
+}
+
+#team h1 {
+  text-align: center;
+}
+
+#contact-form-heading {
+  text-align: center;
+}
+
+#team-title {
+  text-align: center;
+}
+
+#team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-member figure img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.team-member {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .team-member figure img {
+    width: 60%;
+    height: 60%;
+  }
+
+  #team-container {
+    flex-direction: row;
+  }
+}
