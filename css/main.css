@@ -40,3 +40,13 @@ header {
 #main-heading-description {
   font-size: 0.5em;
 }
+
+#about h2 {
+  text-align: center;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
