@@ -5,7 +5,8 @@
 3. Navigation: 
   * About
   * Team
-  * Contact
+  * Contact  
    Note: inline links;
-4. Form (name, email, message)
-5. 
+4. Form (name, email, message) . 
+  Note: Type of text-box: size, relevant information, relevant features;
+5. Accessibility required --> tab indexes, color contrast...
