@@ -31,6 +31,7 @@ h2 {
   background-color: #deded2;
   opacity: 0.8;
   position: fixed;
+  margin-top: 0;
 }
 
 #navbar ul li {
@@ -83,12 +84,16 @@ a {
   text-align: center;
 }
 
-#team {
+#team-container {
   display: flex;
   display: row;
 }
 
-#team h1 {
+p{
+  font-size: 1.5em;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -164,7 +169,7 @@ a {
     flex-direction: row;
   }
 
-  
+
   #about-container {
     display: flex;
     flex-direction: row;
@@ -216,6 +221,12 @@ a {
   .team-member figure img:hover {
     opacity: 1.0;
   }
+
+
+  .button{
+    font-size: 2.5em;
+  }
+
   .formarea {
     position: relative;
   }
@@ -237,4 +248,3 @@ a {
   }
 
 }
-
