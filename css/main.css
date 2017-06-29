@@ -2,6 +2,11 @@ header {
   display: flex;
 }
 
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 50px 0px;
+}
 
 
 #navbar {
@@ -79,8 +84,8 @@ header {
 }
 
 .team-member figure img {
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -90,13 +95,41 @@ header {
   text-align: center;
 }
 
+#contact-form {
+  display: block;
+  text-align: center;
+}
+
+#about, #team-section, #contact-form {
+  margin-top: 100px;
+}
+
+
+
+
+/*@media screen and (max-width: 399px) {
+  #team-container {
+    flex-direction: column;
+  }
+}*/
+
+@media screen and (min-width: 400px) {
+  #team-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 600px) {
+
+  #team-container {
+    flex-direction: row;
+  }
+
   .team-member figure img {
     width: 60%;
     height: 60%;
   }
 
-  #team-container {
-    flex-direction: row;
-  }
+
 }
