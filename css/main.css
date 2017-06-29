@@ -86,7 +86,7 @@ font-family: serif;
 
 #about-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -132,6 +132,16 @@ font-family: serif;
 
 .team-member {
   text-align: center;
+  margin: 10px 0px;
+}
+
+.member-name {
+  font-size: 1.5em;
+}
+
+.member-role {
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #contact-form {
@@ -145,18 +155,14 @@ font-family: serif;
   margin-top: 100px;
 }
 
+
+.about-image {
+  max-width: 200px;
+}
+
 #name, #email, #message {
   border-radius: 4px;
 }
-
-
-
-
-/*@media screen and (max-width: 399px) {
-  #team-container {
-    flex-direction: column;
-  }
-}*/
 
 @media screen and (min-width: 400px) {
   #team-container {
@@ -170,6 +176,11 @@ font-family: serif;
   #team-container {
     flex-direction: row;
   }
+  #about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
   .team-member figure img {
     opacity: 0.5;
@@ -177,6 +188,42 @@ font-family: serif;
     width: 60%;
     height: 60%;
   }
+
+}
+
+.social-icons-container li {
+  display: inline;
+  padding: 10px 20px;
+
+
+}
+
+.social-icons-container {
+  padding: 0;
+  margin: 0;
+}
+
+.github-social-icon {
+  background-image: url('../icons/github.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+}
+
+.codewars-social-icon {
+  background-image: url('../icons/codewars.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+}
+
+.linkedin-social-icon {
+  background-image: url('../icons/linkedin.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+}
+
   .team-member figure img:hover {
     opacity: 1.0;
   }
@@ -185,5 +232,3 @@ font-family: serif;
   opacity: 0.5;
 
   }*/
-
-}
