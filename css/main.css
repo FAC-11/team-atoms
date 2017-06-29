@@ -228,24 +228,6 @@ h2 {
   }
 
   .formarea {
-    position: relative;
+/*     position: relative; */
     background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
   }
-/*   .logo1 {
-    width: 40%;
-    height: 100%;
-    background-image: url("../img/atoms.png");
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
-  .logo2 {
-    width: 40%;
-    height: 100%;
-    background-image: url("../img/atoms.png");
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-
- */
