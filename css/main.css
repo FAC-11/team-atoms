@@ -52,7 +52,7 @@ h2 {
 
 #about-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -95,6 +95,15 @@ h2 {
   text-align: center;
 }
 
+.member-name {
+  font-size: 1.5em;
+}
+
+.member-role {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 #contact-form {
   display: block;
   text-align: center;
@@ -104,14 +113,18 @@ h2 {
   margin-top: 100px;
 }
 
+.about-image {
+  max-width: 200px;
 
+}
 
-
-/*@media screen and (max-width: 399px) {
-  #team-container {
-    flex-direction: column;
-  }
+/*.github-icon {
+  background: url('../icons/github.svg');
 }*/
+
+
+
+
 
 @media screen and (min-width: 400px) {
   #team-container {
@@ -125,11 +138,33 @@ h2 {
   #team-container {
     flex-direction: row;
   }
+  #about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
   .team-member figure img {
     width: 60%;
     height: 60%;
   }
+}
 
+.social-icons-container {
+  /*list-style-type: none;*/
 
+}
+
+.github-social-icon {
+  background-image: url('../icons/github.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+}
+
+.codewars-social-icon {
+  background-image: url('../icons/codewars.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
 }
