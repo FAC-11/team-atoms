@@ -63,7 +63,7 @@ font-family: serif;
 #main-heading-title {
   font-size: 2em;
   color: white;
-  
+
   font-family: monospace;
 }
 
@@ -98,8 +98,12 @@ font-family: serif;
 
 }
 
+
 #contact-form-heading {
   text-align: center;
+  top: 0px;
+  border-radius: 4px;
+  margin: 0;
 }
 
 #team-title {
@@ -127,10 +131,16 @@ font-family: serif;
 #contact-form {
   display: block;
   text-align: center;
+  background-color: #deded2;
+  padding: 50px;
 }
 
 #about, #team-section, #contact-form {
   margin-top: 100px;
+}
+
+#name, #email, #message {
+  border-radius: 4px;
 }
 
 
