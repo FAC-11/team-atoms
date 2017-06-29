@@ -74,6 +74,13 @@ a {
   text-align: center;
 }
 
+#about{
+  padding: 100px;
+}
+#team-section{
+  padding: 100px;
+}
+
 #about-container {
   display: flex;
   flex-direction: column;
