@@ -229,6 +229,7 @@ h2 {
 
   .formarea {
     position: relative;
+    background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
   }
 /*   .logo1 {
     width: 40%;
