@@ -197,11 +197,6 @@ h2 {
   padding: 100px
 }
 
-.formTitle{
-  display: flex;
-  justify-content: center;
-  font-size: 2em;
-}
 #contact-form-heading {
   text-align: center;
   display:inline-flex;
@@ -255,6 +250,7 @@ h2 {
 .formTitle{
   display: flex;
   justify-content: center;
+  font-size: 2em;
   width: 600px;
 }
 
@@ -298,6 +294,19 @@ h2 {
 @media screen and (min-width: 600px) {
   #team-container {
     flex-direction: row;
+  }
+
+  /*#contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #deded2;
+    padding: 50px;
+  }*/
+
+  .content {
+    padding-top: 50px;
   }
 
 
