@@ -243,8 +243,8 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  background-color: #deded2;
-  padding: 50px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .formTitle{
@@ -296,14 +296,6 @@ h2 {
     flex-direction: row;
   }
 
-  /*#contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    background-color: #deded2;
-    padding: 50px;
-  }*/
 
   .content {
     padding-top: 50px;
@@ -369,10 +361,7 @@ h2 {
     font-size: 1.5em;
   }
 
-  .formarea {
-/*     position: relative; */
-    background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
-  }
+
 
   /* Media Queries */
   @media(max-width: 768px){
