@@ -20,7 +20,7 @@
 
 A team od 4 friends met one day in Palmers Road to discuss how all the problems they encountered in their long career could be solved. And boom ATOMS was created. We believe as ATOMS, that our different set of skills make us strong and indivisible!    
 
-  * Abdullah: An experienced frontend developer that will make sure your website looks as good as possible!  
+  * Abdullah: An experienced frontend developer that will make sure your website looks as good as possible!    
   * Minesh: An expert on database driven Websites!  
   * Constantina: Our backend genius!  
   * Rebeca: She will talk to you to make sure we, ATOMS, and you are in the same page to implement your ideas as good as possible!  
@@ -30,10 +30,10 @@ A team od 4 friends met one day in Palmers Road to discuss how all the problems 
 Visit our [website](https://fac-11.github.io/team-atoms) and discover this yourself!
 
 You could navigate through our website thanks to our navbar in the index that will lead you to our main areas of expertise:
-*Frontend
-*Backend
-*Database driven websites
-* Mobile Apps
+*Frontend .  
+*Backend . 
+*Database driven websites . 
+* Mobile Apps . 
 
 Do you want to discover how we physically look? Click on the team tab in the navbar and you could access to each of our github profile (in case you want to see the projects we have been involved in!), linkedin (to check out how long we have been in the industry!) and codewars (A game you may have already played!).  
 
