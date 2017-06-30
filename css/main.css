@@ -169,8 +169,7 @@ a {
 #about-container {
   display: flex;
   flex-direction: column;
-
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .about-content {
@@ -270,8 +269,6 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
-
-
   .team-member figure img {
     opacity: 0.5;
     filter: alpha(opacity=50);
@@ -279,6 +276,11 @@ h2 {
     height: 60%;
   }
 
+  #about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
 
   #about {
@@ -287,6 +289,8 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+
 
 
 }
