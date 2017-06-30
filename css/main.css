@@ -153,7 +153,7 @@ a {
 #about-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .about-content {
@@ -178,15 +178,13 @@ p {
   padding: 100px
 }
 
-<<<<<<< HEAD
+
 .formTitle {
   display: flex;
   justify-content: center;
   font-size: 2em;
 }
 
-=======
->>>>>>> master
 #contact-form-heading {
   text-align: center;
   display: inline-flex;
@@ -262,6 +260,14 @@ p {
     filter: alpha(opacity=50);
     width: 60% height: 60%;
   }
+
+
+  #about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
   #about {
     display: inline-flex;
     justify-content: center;
@@ -274,9 +280,7 @@ p {
   #team-container {
     flex-direction: row;
   }
-<<<<<<< HEAD
-=======
-
+  
   /*#contact-form {
     display: flex;
     flex-wrap: wrap;
@@ -290,8 +294,6 @@ p {
     padding-top: 50px;
   }
 
-
->>>>>>> master
   #about-container {
     display: flex;
     flex-direction: row;
