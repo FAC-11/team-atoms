@@ -178,12 +178,15 @@ p {
   padding: 100px
 }
 
+<<<<<<< HEAD
 .formTitle {
   display: flex;
   justify-content: center;
   font-size: 2em;
 }
 
+=======
+>>>>>>> master
 #contact-form-heading {
   text-align: center;
   display: inline-flex;
@@ -237,6 +240,7 @@ p {
 .formTitle {
   display: flex;
   justify-content: center;
+  font-size: 2em;
   width: 600px;
 }
 
@@ -270,6 +274,24 @@ p {
   #team-container {
     flex-direction: row;
   }
+<<<<<<< HEAD
+=======
+
+  /*#contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #deded2;
+    padding: 50px;
+  }*/
+
+  .content {
+    padding-top: 50px;
+  }
+
+
+>>>>>>> master
   #about-container {
     display: flex;
     flex-direction: row;
