@@ -15,17 +15,19 @@
     <header>
   <div class="container">
     <div id="branding">
-        <img src="atoms.png"></img>
-      <h1><span class="highlight">Acme</span> Web Design</h1>
+        <img src="img/atoms.png"></img>
+      <h1><span class="highlight">ATOMS</span> Web Design</h1>
 
     </div>
     <div>
-        <nav id=navbar>
+        <nav id=navbar ta>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team-section">Team</a></li>
-            <li><a href="#contact-form">Services</a></li>
+
+            <li class="current"><a href="index.html" arial-label="link that goes to the Home section">Home</a></li>
+            <li><a href="#about-header" arial-label="link that goes to the about section">About</a></li>
+            <li><a href="#team-header" arial-label="link that goes to the team section">Team</a></li>
+            <li><a href="#contact-header" arial-label="link that goes to the contact-form">Services</a></li>
+
           </ul>
         </nav>
     </div>
@@ -34,7 +36,7 @@
 
 <section id="showcase">
   <div class="container2">
-    <h1>TEAM ATOM</h1>
+    <h1>TEAM ATOMS</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
   </div>
 </section>
@@ -42,11 +44,11 @@
   </div>
 
   <section id="about">
-    <h2 tabindex="0">We focus on</h2>
+    <h2 id="about-header" tabindex="0">We focus on</h2>
     <div id="about-container">
       <div class="about-content">
         <figure>
-         <img src="img/frontend-img.jpg" class="about-image" alt="Image showing artistic design" tabindex="0" >
+         <img src="img/frontend-img.jpg" class="about-image" arial-label="Image showing artistic design" alt="Image showing artistic design" tabindex="0" >
        </figure>
        <figcaption>
          <p tabindex="0">Beautiful visual design</p>
@@ -54,7 +56,7 @@
      </div>
      <div class="about-content">
        <figure>
-         <img src="img/business-idea.png" class="about-image" alt="Image showing a scrunched paper light bulb" tabindex="0">
+         <img src="img/business-idea.png" class="about-image" arial-label="Image showing a scrunched paper light bulb" alt="Image showing a scrunched paper light bulb" tabindex="0">
        </figure>
        <figcaption>
 
@@ -63,7 +65,7 @@
      </div>
      <div class="about-content">
        <figure>
-         <img src="img/database.png" class="about-image" alt="Image showing a database" tabindex="0">
+         <img src="img/database.png" class="about-image" arial-label="Image showing a database"alt="Image showing a database" tabindex="0">
        </figure>
        <figcaption>
 
@@ -71,14 +73,15 @@
        </figcaption>
      </div>
      <div class="about-content">
-       <figure><img src="img/mobileapps.png" class="about-image" alt="Image showing a mobile phone with its apps" tabindex="0"></figure>
+       <figure><img src="img/mobileapps.png" class="about-image" arial-label="Image showing a mobile phone with its apps" alt="Image showing a mobile phone with its apps" tabindex="0"></figure>
        <figcaption>
          <p tabindex="0">Mobile apps</p>
        </figcaption>
      </div>
  </section>
+
   <section id="team-section">
-    <h2 tabindex="0">Our team</h2>
+    <h2 id="team-header"tabindex="0">Our team</h2>
     <div id="team-container">
       <div class="team-member">
 
@@ -91,7 +94,7 @@
         </div>
         <ul class="social-icons-container">
           <a href="http://github.com/AbdullahChaudhry" target="_blank" aria label="link that gets you to Abdullah's github profile" alt="link that gets you to Abdullah's github profile" tabindex="0"><li class="github-social-icon"></li></a>
-          <a href="https://www.codewars.com/users/mr_ace" target="_blank" aria label="link that gets you to Abdullah's codewars profile"alt="link that gets you to Abdullah's codewars profile"tabindex="0"><li class="codewars-social-icon"></li></a>
+          <a href="https://www.codewars.com/users/mr_ace" target="_blank" aria label="link that gets you to Abdullah's codewars profile" alt="link that gets you to Abdullah's codewars profile"tabindex="0"><li class="codewars-social-icon"></li></a>
           <a href="https://linkedin.com" target="_blank" aria label="link that gets you to Abdullah's linkedin profile" alt="link that gets you to Abdullah's linkedin profile" tabindex="0"><li class="linkedin-social-icon"></li></a>
         </ul>
       </div>
@@ -148,7 +151,7 @@
   <section id="contact-form">
 
     <section class="formTitle">
-        <h2> Contact us! </h2>
+        <h2 id="contact-header"> Contact us! </h2>
     </section>
     <section class="content">
       <form action="https://formspree.io/mineshvora90@gmail.com" method="POST">
