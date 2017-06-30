@@ -1,4 +1,4 @@
-/*New heading*/
+  /*New heading*/
 
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@ ul {
   padding: 0;
 }
 
-h2{
+h2 {
   border-bottom: #e8491d 3px solid;
   font-size: 45px;
   text-align: centre;
@@ -42,15 +42,15 @@ h2{
 
 h2:before {
   display: flex;
-  justify-content: flex-start;;
+  justify-content: flex-start;
+  ;
   content: " ";
   margin-top: -150px;
   height: 150px;
   visibility: hidden;
   font-size: 18px;
-
-
 }
+
 
 /* Header **/
 
@@ -80,8 +80,6 @@ header #branding {
   display: inline-flex;
   flex: 1;
 }
-
-
 
 header nav {
   margin-top: 10px;
@@ -140,8 +138,6 @@ a {
   text-decoration: none;
 }
 
-
-
 #about {
   padding: 30px;
 }
@@ -170,15 +166,12 @@ p {
   text-align: center;
 }
 
-
-
 #content-form {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 100px
 }
-
 
 .formTitle {
   display: flex;
@@ -232,8 +225,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  background-color: #deded2;
-  padding: 50px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .formTitle {
@@ -261,14 +254,11 @@ p {
     filter: alpha(opacity=50);
     width: 60% height: 60%;
   }
-
-
   #about-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
   #about {
     display: inline-flex;
     justify-content: center;
@@ -281,20 +271,9 @@ p {
   #team-container {
     flex-direction: row;
   }
-  
-  /*#contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    background-color: #deded2;
-    padding: 50px;
-  }*/
-
   .content {
     padding-top: 50px;
   }
-
   #about-container {
     display: flex;
     flex-direction: row;
@@ -346,19 +325,6 @@ p {
   font-size: 1.5em;
 }
 
-.formarea {
-  /*     position: relative; */
-  background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
-}
-
-.input {
-    border-radius:7px;
-    border:1px solid #ccc;
-    outline:none;
-}
-.focused {
-    border:1px solid #55d;
-}
 
 /* Media Queries */
 
@@ -369,10 +335,29 @@ p {
     width: 100%;
     justify-content: centre;
   }
-  header {
-    padding-bottom: 20px;
+  .team-member figure img:hover {
+    opacity: 1.0;
   }
-  header #branding {
-    flex: auto;
+  .input {
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: none;
   }
-}
+  .focused {
+    border: 1px solid #55d;
+  }
+  /* Media Queries */
+  @media(max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      justify-content: centre;
+    }
+    header {
+      padding-bottom: 20px;
+    }
+    header #branding {
+      flex: auto;
+    }
+  }
