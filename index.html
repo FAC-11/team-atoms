@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang='en'>
 <html>
 
 <head>
@@ -12,21 +13,32 @@
   <div class="internet-2017">
 
     <header>
-      <nav id="navbar">
-        <ul id="navbar-container">
-          <li><a href="#navbar" tabindex="0">Home</a></li>
-          <li><a href="#about" tabindex="0">About</a></li>
-          <li><a href="#team-section" tabindex="0">Team</a></li>
-          <li><a href="#contact-form" tabindex="0">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <article id="main-heading">
-        <div id="main-heading-title" tabindex="0">ATOMS</div>
-        <div id="main-heading-description" tabindex="0">Designing solutions to technology problems</div>
-      </article>
-    </section>
+  <div class="container">
+    <div id="branding">
+        <img src="atoms.png"></img>
+      <h1><span class="highlight">Acme</span> Web Design</h1>
+
+    </div>
+    <div>
+        <nav id=navbar>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team-section">Team</a></li>
+            <li><a href="#contact-form">Services</a></li>
+          </ul>
+        </nav>
+    </div>
+  </div>
+</header>
+
+<section id="showcase">
+  <div class="container2">
+    <h1>TEAM ATOM</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+  </div>
+</section>
+
   </div>
 
   <section id="about">
@@ -69,6 +81,7 @@
     <h2 tabindex="0">Our team</h2>
     <div id="team-container">
       <div class="team-member">
+
         <figure><img src="img/AC.png" alt="Photo of Abdullah" tabindex="0"></figure>
         <div class="member-name" tabindex="0">
           Abdullah
@@ -131,8 +144,12 @@
       </div>
     </div>
   </section>
-  <section id="contact-form">
-    <h2 tabindex="0">Contact us!</h2>
+
+  <section id="contact-form" class="formarea">
+
+    <section class="formTitle">
+        <h2> Contact us! </h2>
+    </section>
     <section class="content">
       <form action="https://formspree.io/mineshvora90@gmail.com" method="POST">
         <label for="name">Name</label><br>
@@ -146,6 +163,7 @@
       </form>
     </section>
   </section>
-</body>
 
+
+</body>
 </html>

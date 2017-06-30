@@ -1,93 +1,175 @@
-header {
-  display: flex;
+
+/*New heading*/
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+    display:flex;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    justify-content: flex-end;
+    max-height: 100px;
+}
+
+.container2{
+    display:flex;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    justify-content:center;
+    height: auto;
+    flex-direction: column;
 
 }
 
-h2 {
-  font-size: 2em;
-  text-align: center;
-  margin: 50px 0px;
-
-}
-.internet-2017{
-  background: linear-gradient(
-    rgba(44, 173, 185, 0.59),
-    rgba(255, 23, 0, 0.28)
-    ),
-   url("../img/internet-2017.jpg");
-
+ul{
+  margin:0;
+  padding:0;
 }
 
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
 
-#navbar {
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background-color:rgba(0, 0, 0, 0.5);
+  color:#ffffff;
+  padding-top:20px;
+    padding-bottom: 20px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+
   width: 100%;
-  height: 100px;
-  /*position: fixed;*/
-  /*z-index: 1;
-  top: 0;*/
+    position: fixed;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:14px;
 
 }
 
-#navbar-container {
-  display: inline-flex;
-  height: 100px;
-  width: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-  list-style-type: none;
-  background-image: url("../img/atoms.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px 100px;
-  background-color: #deded2;
-  opacity: 0.8;
-  position: fixed;
-  margin-top: 0;
+header li{
+
+  padding: 10px 20px 0 20px;
 }
 
-#navbar ul li {
-  display: inline-flex;
-  font-size: 1.5em;
-  padding-right: 65px;
-  font-family: monospace;
-  font-style: normal;
+header #branding{
+    display: inline-flex;
+    flex: 1;
+
+}
+
+header #branding h1{
+
+}
+
+header nav{
+
+  margin-top:10px;
+
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+#navbar ul li{
+    display: inline-flex;
+
+
+}
+
+header img{
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+
+}
+
+
+#showcase{
+
+  min-height:500px;
+    background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28)), url("../img/internet-2017.jpg")0 -100px;
+  text-align:centre;
+  color:#ffffff;
+
+}
+
+
+
+#showcase h1{
+    justify-content: bottom;
+  margin-top:150px;
+  font-size:55px;
+  margin-bottom:10px;
+  margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#showcase p{
+  font-size:20px;
+     margin-bottom:10px;
+     margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* Old css*/
+
+a {
   color: black;
-  justify-content: flex-end;
-}
-a{
-  color:black;
   text-decoration: none;
 }
 
-#main-heading {
-  font-size: 4em;
-  text-align: center;
-font-family: serif;
-  padding: 7.5rem;
 
-}
-
-#main-heading-title {
-  font-size: 2em;
-  color: white;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-#main-heading-description {
-  font-size: 0.5em;
-  color: white;
-  font-family: serif;
-  font-weight: bold;
-}
 
 #about h2 {
   text-align: center;
 }
 
+#about{
+  padding: 30px;
+}
+#team-section{
+  padding: 30px;
+}
+
 #about-container {
   display: flex;
   flex-direction: column;
+
   justify-content: space-around;
 }
 
@@ -106,15 +188,27 @@ p{
 
 h2 {
   text-align: center;
-
 }
 
+#content-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 100px
+}
 
+.formTitle{
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
 #contact-form-heading {
   text-align: center;
+  display:inline-flex;
   top: 0px;
   border-radius: 4px;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 #team-title {
@@ -128,8 +222,8 @@ h2 {
 }
 
 .team-member figure img {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -150,48 +244,63 @@ h2 {
 }
 
 #contact-form {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   background-color: #deded2;
   padding: 50px;
 }
 
-#about{
-  padding: 150px;
+.formTitle{
+  display: flex;
+  justify-content: center;
+  width: 600px;
 }
 
 #about, #team-section, #contact-form {
   margin-top: 100px;
 }
-#team-section{
-  padding: 100px;
-}
 
 
 .about-image {
   max-width: 200px;
-  display: flex;
-  flex-wrap: wrap;
 }
-
-
 
 #name, #email, #message {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 400px) {
-  #team-container {
-    flex-direction: row;
+
+@media screen and (max-width: 600px) {
+
+
+
+  .team-member figure img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 60%
+    height: 60%;
+  }
+
+
+
+  #about {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
   }
+
+
 }
 
 @media screen and (min-width: 600px) {
-
   #team-container {
     flex-direction: row;
   }
+
+
   #about-container {
     display: flex;
     flex-direction: row;
@@ -201,9 +310,10 @@ h2 {
   .team-member figure img {
     opacity: 0.5;
     filter: alpha(opacity=50);
-    width: 60%;
-    height: 60%;
+    width: 100%
+    height: 100%;
   }
+
 
 }
 
@@ -240,20 +350,38 @@ h2 {
   padding-left: 35px;
 }
 
-.about-content {
-  margin-bottom: 20px;
-  padding-bottom: 20px:
-}
-
   .team-member figure img:hover {
     opacity: 1.0;
+
   }
+
 
   .button{
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
-  /*main{
-    background-color: blue;
-  opacity: 0.5;
 
-  }*/
+  .formarea {
+/*     position: relative; */
+    background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
+  }
+
+  /* Media Queries */
+  @media(max-width: 768px){
+    .container{
+      flex-direction: column;
+      text-align:center;
+      width:100%;
+      justify-content: centre;
+    }
+
+    header{
+       padding-bottom:20px;
+
+
+     }
+       header #branding{
+       flex: auto;
+
+     }
+
+  }
