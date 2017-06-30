@@ -34,23 +34,23 @@ ul {
   padding: 0;
 }
 
-.button_1 {
-  height: 38px;
-  background: #e8491d;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
+h2{
+  border-bottom: #e8491d 3px solid;
+  font-size: 45px;
+  text-align: centre;
 }
 
-.dark {
-  padding: 15px;
-  background: #35424a;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+h2:before {
+  display: flex;
+  justify-content: flex-start;;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  font-size: 18px;
 
+
+}
 
 /* Header **/
 
@@ -108,10 +108,11 @@ header img {
 }
 
 #showcase {
-  min-height: 500px;
+  min-height: 600px;
   background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28)), url("../img/internet-2017.jpg")0 -100px;
   text-align: centre;
   color: #ffffff;
+  mar-bottom: -100;
 }
 
 #showcase h1 {
@@ -139,9 +140,7 @@ a {
   text-decoration: none;
 }
 
-#about h2 {
-  text-align: center;
-}
+
 
 #about {
   padding: 30px;
@@ -170,9 +169,7 @@ p {
   font-size: 1.5em;
 }
 
-h2 {
-  text-align: center;
-}
+
 
 #content-form {
   display: flex;
@@ -329,6 +326,14 @@ h2 {
   background: linear-gradient( rgba(44, 173, 185, 0.59), rgba(255, 23, 0, 0.28));
 }
 
+.input {
+    border-radius:7px;
+    border:1px solid #ccc;
+    outline:none;
+}
+.focused {
+    border:1px solid #55d;
+}
 
 /* Media Queries */
 
