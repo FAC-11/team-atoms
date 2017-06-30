@@ -27,7 +27,19 @@ A team od 4 friends met one day in Palmers Road to discuss how all the problems 
   
 #### Tell us about you and let us tell you about us?
 
-Go to our Website and write us! Go to the contact form and lets build what you were waiting for!  
+Visit our [website](https://fac-11.github.io/team-atoms) and discover this yourself!
+
+You could navigate through our website thanks to our navbar in the index that will lead you to our main areas of expertise:
+*Frontend
+*Backend
+*Database driven websites
+* Mobile Apps
+
+Do you want to discover how we physically look? Click on the team tab in the navbar and you could access to each of our github profile (in case you want to see the projects we have been involved in!), linkedin (to check out how long we have been in the industry!) and codewars (A game you may have already played!).  
+
+What about contacting us?
+
+Go to the contact form and lets build what you were waiting for!  
 
 
   __The ATOMS Team__
