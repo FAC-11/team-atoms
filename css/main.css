@@ -85,7 +85,7 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight {
   color: #e8491d;
   font-weight: bold;
 }
@@ -95,7 +95,7 @@ header a:hover {
   font-weight: bold;
 }
 
-#navbar ul li {
+nav ul li {
   display: inline-flex;
 }
 
